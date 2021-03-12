@@ -40,12 +40,20 @@ mvn javadoc:javadoc
 ## AWS
 
 Esta app web cuenta con el siguiente link para poder comprobar su funcionalidad, se cuentan con dos link esto porque se manejan dos puertos diferentes para la aplicación
-Puerto:
+
+Puertos:
 * 34000
 * 8087
 
-http://ec2-54-87-52-77.compute-1.amazonaws.com:34000/
-http://ec2-54-87-52-77.compute-1.amazonaws.com:8087/
+Links:
+* http://ec2-54-87-52-77.compute-1.amazonaws.com:34000/
+* http://ec2-54-87-52-77.compute-1.amazonaws.com:8087/
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/AREP-LABORATORIO5/blob/master/img/AWS-despliegue.PNG?raw=true">
+</p>
+
+
 
 
 ## CIRCLECI
