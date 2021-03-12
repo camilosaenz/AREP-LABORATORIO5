@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>AREP DOCKER AND AWS</title>
+<meta charset="UTF-8">
+
+<script type="text/javascript" src="js/apiClient.js" ></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body onload="apiClient.getMensaje()" bgcolor="#cddf89">
+	<center>
+		<font size="6" color="#df7644" face="Tahoma">
+			AREP LABORATORIO DOCKER Y AWS.
+		</font>
+		<h2>Escriba el mensaje que desea ingresar.</h2>
+		<div id="menu">
+			<input type="text" name="Mensaje" id="Mensaje">
+			<button type="button" onclick="apiClient.addMensaje()">Ingresar</button>
+		</div>
+		<div>Mensajes:</div>
+		<div class="a">
+			<table class="table table-bordered" id="Table">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Mensaje</th>
+						<th scope="col">Fecha</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</center>
+</body>
+</html>
